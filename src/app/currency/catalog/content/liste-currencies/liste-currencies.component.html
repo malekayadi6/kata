@@ -1,0 +1,8 @@
+<div class="row ">
+  <div *ngFor="let currency of currencies" class="col-lg-2 col-sm-4 col-md-3"  >
+    <a [routerLink]="['/currency/',currency?.id]">
+      <app-item-currency [currency] ="currency" ></app-item-currency>
+    </a>
+  </div>
+
+</div>

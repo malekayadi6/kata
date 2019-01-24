@@ -1,0 +1,14 @@
+<mat-card>
+  <mat-card-title>
+    {{currency.id}}
+  </mat-card-title>
+  <mat-card-content>
+    <ul>
+      <li><span>Code:</span> {{currency?.attributes.code}} </li>
+      <li><span>Name:</span> {{currency?.attributes.name}} </li>
+      <li><span>Currrency type :</span> {{currency?.attributes.currency_type}} </li>
+      <li> <span>Code ISO numeric 3:</span> {{currency?.attributes.code_iso_numeric3}} </li>
+      <li> <span>Code ISO alpha 3:</span> {{currency?.attributes.code_iso_alpha3}} </li>
+    </ul>
+  </mat-card-content>
+</mat-card>
